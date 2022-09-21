@@ -1,28 +1,38 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap"); /*iMPORTO GOOGLE FONT*/
-/*DECLARO VARIABLES*/
-:root {
-  /*font family*/
-  --font-principal: "Jost", sans-serif;
-  --text-color: #050505;
-  /*font size*/
-  --text-large: 5.2em;
-  --text-medium: 2.2em;
-  --text-base: 1.6em;
-  --text-small: 1.4em;
-  /*spacing*/
-  --spacing-large: 6rem;
-  --spacing-medium: 4rem;
-  --spacing-small: 2rem;
-  --spacing-xsmall: 1rem;
-  /*colors*/
-  --primary:#030303;
-  --secondary:#2757ad;
-  --alternative: grey;
+/*----------COLORES-----------------*/
+/*-----fuentes-----*/
+/*----------TAMAÑOS letra----------------*/
+/*----------ESPACIADOS-----------------*/
+.nav-link {
+  color: rgb(165, 158, 158);
+}
+.nav-link:hover {
+  color: white;
+}
+
+.menu {
+  background-color: #2757ad;
+}
+
+footer ul {
+  background-color: rgb(7, 3, 3);
+  padding: 1rem;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: aliceblue;
+}
+
+.formulario p {
+  font-size: var(2.2em);
 }
 
 /*---------------ESTILOS GLOBALES-----------*/
 body {
-  font-family: var(--font-principal);
+  font-family: "Jost", sans-serif;
 }
 
 ul {
@@ -31,7 +41,7 @@ ul {
 
 /*--------------------------------------------*/
 .nav-link {
-  color: --alternative;
+  color: rgb(165, 158, 158);
 }
 .nav-link:hover {
   color: white;
@@ -58,8 +68,4 @@ footer div {
   flex-direction: column;
   align-items: flex-end;
   color: aliceblue;
-}
-
-.formulario p {
-  font-size: var(--text-small);
 }/*# sourceMappingURL=styles.css.map */

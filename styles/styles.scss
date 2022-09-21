@@ -1,56 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap'); /*iMPORTO GOOGLE FONT*/
+@import"./partials/variables";
+@import"./partials/header";
+@import"./partials/nav";
+@import "./partials/footer";
+@import "./partials/main";
 
 
-/*DECLARO VARIABLES*/
-:root{
-
-    /*font family*/
-    --font-principal: 'Jost', sans-serif;
-    --text-color: #050505;
-
-
-    /*font size*/
-    --text-large: 5.2em;
-    --text-medium: 2.2em;
-    --text-base: 1.6em;
-    --text-small: 1.4em;
-
-    /*spacing*/
-    --spacing-large: 6rem;
-    --spacing-medium: 4rem;
-    --spacing-small: 2rem;
-    --spacing-xsmall: 1rem;
-
-
-
-    /*colors*/
-    --primary:#030303;
-    --secondary:#2757ad;
-    --alternative: grey;
-
-}
 
 
 /*---------------ESTILOS GLOBALES-----------*/
-
-
-
 body{
-    font-family: var(--font-principal);
-   
+    font-family: $font-principal;
+      
 }
-
 
 ul{
     list-style-type: none;
 }
-
 /*--------------------------------------------*/
 
 
 
 .nav-link{
-    color: --alternative;
+    color: $Title-color;
     &:hover{ color: white; }
 }
 
@@ -95,8 +67,3 @@ footer {
 
 
 
-.formulario {
-    p {
-        font-size: var(--text-small);
-    }
-}
