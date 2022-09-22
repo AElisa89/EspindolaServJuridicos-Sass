@@ -1,17 +1,22 @@
 
-/*----------COLORES-----------------*/
+
+body {
+    font-family: "Jost", sans-serif;
+  }
+
+
+
 $backgoundHeader:#2757ad;
-$Title-color:rgb(165, 158, 158);
-$Subtitle-color:rgb(6, 87, 37);
+$Title-color:rgb(0, 0, 0);
+$Subtitle-color:rgb(108, 109, 108);
 $buttonColor: rgb(45, 53, 99);
 $backgroundFooter:rgb(7, 3, 3) ;
 
-/*-----fuentes-----*/
 $font-principal: 'Jost', sans-serif;
 $text-color: #050505;
 
 
-/*----------TAMAÑOS letra----------------*/
+
 $text-large: 5.2em;
 $text-medium: 2.2em;
 $text-base: 1.6em;
@@ -19,8 +24,10 @@ $text-small: 1.4em;
 
 
 
-/*----------ESPACIADOS-----------------*/
+
 $spacing-large: 6rem;
 $spacing-medium: 4rem;
 $spacing-small: 2rem;
 $spacing-xsmall: 1rem;
+
+

@@ -1,14 +1,20 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap"); /*iMPORTO GOOGLE FONT*/
+/*--------ESTILOS GLOBALES----------*/
+body {
+  font-family: "Jost", sans-serif;
+}
+
 /*----------COLORES-----------------*/
 /*-----fuentes-----*/
 /*----------TAMAÑOS letra----------------*/
 /*----------ESPACIADOS-----------------*/
+
 .nav-link {
-  color: rgb(165, 158, 158);
+  color: rgb(252, 252, 252);
 }
 .nav-link:hover {
-  color: white;
+  color: rgb(125, 151, 11);
 }
 
 .menu {
@@ -26,46 +32,11 @@ footer div {
   color: aliceblue;
 }
 
-.formulario p {
-  font-size: var(2.2em);
-}
-
-/*---------------ESTILOS GLOBALES-----------*/
-body {
-  font-family: "Jost", sans-serif;
-}
-
-ul {
-  list-style-type: none;
-}
-
-/*--------------------------------------------*/
-.nav-link {
-  color: rgb(165, 158, 158);
-}
-.nav-link:hover {
-  color: white;
-}
-
-.menu {
-  background-color: #2757ad;
-}
-
-.card {
-  border: none;
-}
-
 .icon {
   font-size: 2rem;
 }
 
-footer ul {
-  background-color: #000000;
-  padding: 1rem;
-}
-footer div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  color: aliceblue;
+.formulario p {
+  font-size: var(2.2em);
+  color: rgb(0, 0, 0);
 }/*# sourceMappingURL=styles.css.map */
