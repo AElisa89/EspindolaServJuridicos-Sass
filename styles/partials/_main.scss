@@ -8,9 +8,20 @@
 .text-center{
  @extend %subtituloDefault;
  
+ 
 }
 
 .boton{
-@include boton(map-get($colors, backgroundFooter)) /*llamo al extend y le paso color de fondo*/
+@include boton(map-get($colors, backgroundFooter)) /*llamo al mixin y le paso color de fondo*/
         
 }
+
+.card-text{
+    text-align:justify;
+}
+
+.body{
+    position: relative;
+    min-height: 100vh;
+}
+

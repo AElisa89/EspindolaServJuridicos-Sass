@@ -15,6 +15,9 @@ body {
   color: rgb(77, 73, 75);
 }
 
+footer {
+  bottom: 0%;
+}
 footer ul {
   background-color: rgb(7, 3, 3);
   padding: 1rem;
@@ -40,4 +43,16 @@ footer div {
   padding: 5px;
   color: rgb(252, 252, 252);
   background-color: rgb(7, 3, 3);
+}
+.boton:hover {
+  background-color: rgb(77, 73, 75);
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.body {
+  position: relative;
+  min-height: 100vh;
 }/*# sourceMappingURL=styles.css.map */

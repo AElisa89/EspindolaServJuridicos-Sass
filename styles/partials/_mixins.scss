@@ -3,4 +3,7 @@
     padding: 5px;
     color: map-get($colors , nav-links);
     background-color: $background;
+    &:hover{
+        background-color: map-get($colors, Subtitle-color);
+    }
 }
