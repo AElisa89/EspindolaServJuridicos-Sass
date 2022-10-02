@@ -1,6 +1,6 @@
 .formulario {
     p {
-        font-size: var($text-medium);
-        color: $Title-color;
+        font-size: map-get($textSize , text-large);
+        color: map-get($colors, Title-color);
     }
 }

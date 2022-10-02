@@ -1,7 +1,7 @@
 footer {
     ul {
-        background-color: $backgroundFooter;
-        padding: 1rem;
+        background-color: map-get($colors , backgroundFooter)
+        padding: map-get($spacing , spacing-xsmall);
 
     }
 
@@ -16,5 +16,5 @@ footer {
 }
 
 .icon{
-    font-size: 2rem;
+    font-size: map-get($textSize, text-medium);
 }

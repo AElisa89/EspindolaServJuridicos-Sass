@@ -13,9 +13,10 @@ body {
 .nav-link {
   color: rgb(252, 252, 252);
 }
+/*
 .nav-link:hover {
   color: rgb(125, 151, 11);
-}
+}*/
 
 .menu {
   background-color: #2757ad;

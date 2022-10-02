@@ -1,9 +1,9 @@
 
 .nav-link{
-    color: rgb(252, 252, 252);
+    color: map-get($colors , nav-links);
     
-    &:hover{ color: rgb(125, 151, 11); 
-    ;}
+    &:hover{ color: map-get($color, Subtitle-color); 
+    }
 }
 
 
