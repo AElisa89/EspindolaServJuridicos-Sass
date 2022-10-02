@@ -1,0 +1,6 @@
+@mixin boton ($background){
+    border-radius: 5px;
+    padding: 5px;
+    color: map-get($colors , nav-links);
+    background-color: $background;
+}

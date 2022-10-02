@@ -1,5 +1,5 @@
 %subtituloDefault{
 
     font-weight: 800;
-    color: rgb(175, 165, 171);
+    color: map-get($colors, Subtitle-color);
 }

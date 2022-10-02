@@ -5,18 +5,14 @@ body {
 
 .text-center {
   font-weight: 800;
-  color: rgb(175, 165, 171);
+  color: rgb(77, 73, 75);
 }
 
 .nav-link {
   color: rgb(252, 252, 252);
 }
 .nav-link:hover {
-  color: rgb(175, 165, 171);
-}
-
-.menu {
-  background-color: #2757ad;
+  color: rgb(77, 73, 75);
 }
 
 footer ul {
@@ -37,4 +33,11 @@ footer div {
 .formulario p {
   font-size: 1.4em;
   color: rgb(0, 0, 0);
+}
+
+.boton {
+  border-radius: 5px;
+  padding: 5px;
+  color: rgb(252, 252, 252);
+  background-color: rgb(7, 3, 3);
 }/*# sourceMappingURL=styles.css.map */

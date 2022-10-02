@@ -9,3 +9,8 @@
  @extend %subtituloDefault;
  
 }
+
+.boton{
+@include boton(map-get($colors, backgroundFooter)) /*llamo al extend y le paso color de fondo*/
+        
+}
