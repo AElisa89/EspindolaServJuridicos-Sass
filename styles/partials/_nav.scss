@@ -2,13 +2,13 @@
 .nav-link{
     color: map-get($colors , nav-links);
     
-    &:hover{ color: map-get($color, Subtitle-color); 
+    &:hover{ color: map-get($colors, Subtitle-color); 
     }
 }
 
 
 
 .menu{
-background-color: $backgoundHeader;
+background-color: map-get($colors, backgoundHeader );
 
 }

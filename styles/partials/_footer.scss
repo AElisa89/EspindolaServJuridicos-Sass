@@ -1,6 +1,6 @@
 footer {
     ul {
-        background-color: map-get($colors , backgroundFooter)
+        background-color: map-get($colors , backgroundFooter);
         padding: map-get($spacing , spacing-xsmall);
 
     }

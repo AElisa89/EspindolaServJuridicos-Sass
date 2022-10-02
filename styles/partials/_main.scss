@@ -1,6 +1,11 @@
 .formulario {
     p {
-        font-size: map-get($textSize , text-large);
+        font-size: map-get($textSize , text-small);
         color: map-get($colors, Title-color);
     }
+}
+
+.text-center{
+ @extend %subtituloDefault;
+ 
 }
