@@ -1,20 +1,30 @@
 footer {
+    /*position: absolute;
+    bottom: 0%;*/
+    background-color: map-get($colors, backgroundFooter);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+        
     ul {
-        background-color: map-get($colors , backgroundFooter);
-        padding: map-get($spacing , spacing-xsmall);
-
-    }
-
-    div {
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        color: aliceblue;
+        padding: map-get($spacing , spacing-xsmall);
+        list-style-type: none;
+        li{
+            color: map-get($colors, nav-links);
+            
+        }
 
     }
 
-    bottom: 0%;
+     
+}
 
+.footerContact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .icon{

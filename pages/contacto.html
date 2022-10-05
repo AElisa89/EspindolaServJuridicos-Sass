@@ -15,15 +15,15 @@
 </head>
 
 <body class="container-fluid">
-<!-- FILA 1  HEADER-->
-<section class="row">
-    <section class="col col-sm-12 my-4">
-        <header class="header text-center">
-            <h1 class="titulo"> <img src="../images/icono.jpg" width="40px" height="40px"> ESPINDOLA </h1>
-            <h5>Servicios Juridicos</h5>
-        </header>
+    <!-- FILA 1  HEADER-->
+    <section class="row">
+        <section class="col col-sm-12 my-4">
+            <header class="header text-center">
+                <h1 class="titulo"> <img src="../images/icono.jpg" width="40px" height="40px"> ESPINDOLA </h1>
+                <h5>Servicios Juridicos</h5>
+            </header>
+        </section>
     </section>
-</section>
 <!-- FIN HEADER -->
 
 
@@ -31,27 +31,27 @@
 
 <!-- FILA 2 MENU DE NAVEGACION y sandwich -->
 <section class="row">
-        <section class="col 12">
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <div class="menu collapse navbar-collapse " id="navbarTogglerDemo01">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./quienesSomos.html"> Quiénes Somos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./Profesionales.html"> Profesionales </a></li>
-                        <li class="nav-item"><a class="nav-link" href="./areas.html"> Áreas </a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contacto.html"> Contacto </a></li>
-                    </ul>
-    
-                </div>
-    
-    
-            </nav>
-        </section>
+    <section class="col 12">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="menu collapse navbar-collapse " id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./quienesSomos.html"> Quiénes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Profesionales.html"> Profesionales </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./areas.html"> Áreas </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contacto.html"> Contacto </a></li>
+                </ul>
+
+            </div>
+
+
+        </nav>
+    </section>
 </section>
 
 
@@ -60,34 +60,32 @@
 
 <section class="row formulario">
     <section class="col-sm-12 col-md-12 col-lg-6">
-    <form class="formContacto">
-        <br>
-        <p class=>Deje su mensaje y nos contactaremos a la brevedad</p>
-        
-        <div class="mb-3">
-            <label for="name">Nombre y Apellido</label>
-            <input type="text" class="form-control" id="name" >
+        <form class="formContacto">
+            <br>
+            <p class=>Deje su mensaje y nos contactaremos a la brevedad</p>
 
-        </div>
+            <div class="mb-3">
+                <label for="name">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="name">
+            </div>
 
 
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" >
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+            </div>
 
-        </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Deje aquí su mensaje</label>
+            </div>
 
-        <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Deje aquí su mensaje</label>
-          </div>
-
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Quiero recibir novedades en mi correo</label>
-        </div>
-        <button type="submit" class="boton">Enviar</button>
-    </form>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Quiero recibir novedades en mi correo</label>
+            </div>
+            <button type="submit" class="boton">Enviar</button>
+        </form>
     </section>
 
 
@@ -95,11 +93,15 @@
         <!--Google map-->
         <br>
         <p class="msg-contacto"> Dónde estamos</p>
-    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.383134012158!2d-58.399904485195606!3d-34.59447206451517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd6b27f532a03%3A0x2e0c74da787c4abc!2sArenales%202166%2C%20C1124AAH%20CABA!5e0!3m2!1ses!2sar!4v1663544543709!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  
-  <!--Google Maps-->
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.383134012158!2d-58.399904485195606!3d-34.59447206451517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd6b27f532a03%3A0x2e0c74da787c4abc!2sArenales%202166%2C%20C1124AAH%20CABA!5e0!3m2!1ses!2sar!4v1663544543709!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    
+    
     </section>
 
 </section>
@@ -112,23 +114,22 @@
     <section class="row">
         <section class="col 12">
             <footer class="footer">
-                <ul class="listaFooter mt-2 list-unstyled d-flex align-items-center">
+                <ul>
     
-                    <li class="list-inline-item"><a href="https://www.facebook.com/"> <i class="icon fab fa-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.instagram.com/"><i class="icon fa-brands fa-square-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="icon fa-brands fa-square-whatsapp"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.youtube.com"><i class="icon fa-brands fa-youtube"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank"> <i class="icon fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank"><i class="icon fa-brands fa-square-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="icon fa-brands fa-square-whatsapp"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.youtube.com" target="_blank"><i class="icon fa-brands fa-youtube"></i></a></li>
+                </ul>
     
-                    <div class="contactFooter">
-                        <p class="text-end"> <i class="fa-solid fa-location-dot"></i> Arenales 2166 - Capital Federal,
-                            Buenos Aires</p>
-                        <p> <i class="fa-solid fa-phone"></i> (011) 2250-4832 / Tel. / Fax: 4326-2634</p>
-                    </div>
-    
+                <ul class="footerContact">
+                    <li> <i class="fa-sharp fa-solid fa-location-dot"></i> Arenales 2166 - Capital Federal, Buenos Aires. </li>
+                    <li> <i class="fa-sharp fa-solid fa-phone"></i> (011) 2250-4832 / Tel. / Fax: 4326-2634</li>
+                    <li> <i class="fa-regular fa-envelope"></i> info@aeservicios_juridicos@gmail.com </li>
                 </ul>
             </footer>
         </section>
-    </section>  
+    </section>
 
 
 <!-- JavaScript Bundle with Popper -->

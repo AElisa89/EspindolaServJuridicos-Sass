@@ -2,4 +2,5 @@
 
     font-weight: 800;
     color: map-get($colors, Subtitle-color);
+    font-size: map-get($textSize , text-medium);
 }
