@@ -3,6 +3,8 @@
         font-size: map-get($textSize , text-small);
         color: map-get($colors, Title-color);
     }
+  
+   
 }
 
 .card-header{
@@ -19,7 +21,6 @@
 .card-text{
     text-align:justify;
 }
-
 
 
 
