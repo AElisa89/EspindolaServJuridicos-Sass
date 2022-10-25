@@ -11,8 +11,7 @@ body {
 
 header {
   background-image: url("../images/banner.jpg");
-   
- 
+  background-size: cover;
 }
 
 .nav-link {
@@ -23,8 +22,7 @@ header {
 }
 
 footer {
-  /*position: absolute;
-  bottom: 0%;*/
+
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
@@ -67,3 +65,13 @@ footer ul li {
 .card-text {
   text-align: justify;
 }/*# sourceMappingURL=styles.css.map */
+
+
+.banner{
+  width: 100%;
+  height: 700px;
+  background: center fixed url("../images/fondos/inicio.jpg");
+  background-size: cover;
+
+}
+

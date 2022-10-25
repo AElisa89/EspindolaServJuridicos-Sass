@@ -1,6 +1,6 @@
 footer {
-    /*position: absolute;
-    bottom: 0%;*/
+    position: absolute;
+    bottom: 0%;
     background-color: map-get($colors, backgroundFooter);
     display: flex;
     justify-content:space-between;
